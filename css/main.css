@@ -7,6 +7,15 @@ body {
   color: #5a5a5a;
 }
 
+h1, h2, h3 {
+    text-shadow: 1px 1px 1px #888888;
+}
+
+h1 {
+  color:#835a4e;
+  font-size:4em;
+}
+
 .toprow {
   text-align:center;
 }
@@ -44,17 +53,18 @@ body {
 
 /* Carousel base class */
 .carousel {
-  height: 300px;
+  height: 500px;
   margin-bottom: 60px;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   z-index: 10;
+  bottom:15%;
 }
 
 /* Declare heights because of positioning of img element */
 .carousel .item {
-  height: 300px;
+  height: 500px;
   background-color: #777;
 }
 .carousel-inner > .item > img {
@@ -67,7 +77,12 @@ body {
 
 .title {
   color:white;
+  text-shadow: #835a4e;
   font-size:24px;
+}
+
+.btn {
+    box-shadow: 2px 2px 1px #888888;
 }
 
 
@@ -92,19 +107,25 @@ body {
 ------------------------- */
 
 .featurette-divider {
-  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+  margin: 10px 0; /* Space out the Bootstrap <hr> more */
 }
 
 /* Thin out the marketing headings */
 .featurette-heading {
-  font-weight: 300;
+  font-weight: 200;
   line-height: 1;
   letter-spacing: -1px;
+  text-shadow: #835a4e;
 }
 
 .img-square {
   border-radius:10px;
   border:1px solid black;
+  box-shadow: 5px 5px 2px #888888;
+}
+
+.projects {
+  padding-bottom:25px;
 }
 
 li {
