@@ -20,7 +20,6 @@ h1 {
   text-align:center;
 }
 
-
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
 
@@ -59,7 +58,7 @@ h1 {
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   z-index: 10;
-  bottom:15%;
+  bottom:35%;
 }
 
 /* Declare heights because of positioning of img element */
@@ -76,7 +75,7 @@ h1 {
 }
 
 .title {
-  color:white;
+  color:#337ab7;
   text-shadow: #835a4e;
   font-size:24px;
 }
